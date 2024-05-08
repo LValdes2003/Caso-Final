@@ -13,4 +13,12 @@ public class UserAccount {
         this.email = email;
         this.tweets = tweets;
     }
+
+    public String getAlias() {
+        return alias;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
