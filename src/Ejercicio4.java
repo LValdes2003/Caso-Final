@@ -11,3 +11,4 @@ public class Ejercicio4 {
 }
 // tipo de recursividad: recursividad de cola
 // complejidad de tiempo: O(log n)
+// complejidad de espacio: O(log n)
