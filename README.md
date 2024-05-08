@@ -26,7 +26,10 @@ b)	Falso
  - En una tabla Hash, cada valor tiene un "key" o una llave. En un árbol, cada nodo tiene dos "hijos" hasta llegar al final. Una tabla Hash requiere que se asignen las llaves a cada valor, pero es más eficiente. Un árbol es eficiente en grupos de datos que se repiten, por ejemplo en la compresión de texto.
 
 ### 3)	Explica las diferencias entre una pila y una cola. ¿ Cuándo conviene utilizar cada una de estas estructuras? ¿ Cuál es el orden de complejidad computacional de estas estructuras? No redacte el orden tal y como puede ver en los apuntes, razónelo con sus propias palabras y argumentos.
- - 
+ - Como en la vida real, una pila y una cola son diferentes en sus métodos de meter y sacar objetos.
+ - Una pila funciona con LIFO (Last in First out). El objeto que más recientemente entró es el primero a salir. Es como una pila de mantas. No se saca la manta debajo de todas primero.
+ - Una cola funciona con FIFO (First in First out). El primer objeto a entrar es el primero a salir. Es como una cola para el banco. El primero a hacer cola es el primero a ser atendido.
+ - Las dos estructuras tienen complejidad de O(1), porque siempre se sabe que valor es el primero o último a entrar.
 
 ### 4)	Explica el método de ordenación denominado inserción y describe las iteraciones sobre el siguiente conjunto de datos: 
 ### 50 20 84 13 22 16 89 85 
@@ -52,4 +55,4 @@ b)	Falso
 
 ## Ejercicio 4 en Ejercicio4.java
 ### ¿Qué tipo de recursividad se está empleando? ¿Qué complejidad computacional tiene el algoritmo?
-El tipo de recursividad es de cola, la complejidad de tiempo y espacio es 0(log n) por cada dígito del número.
+El tipo de recursividad es de cola, la complejidad de tiempo y espacio es O(log n) por cada dígito del número.
