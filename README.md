@@ -3,7 +3,7 @@
 ### 05436592J
 https://github.com/LValdes2003/Caso-Final
 
-## Test
+## Ejercicio 1
 
 ### En relación al estado de un objeto, para preservar el principio de encapsulación:
 b) Debemos establecer la visibilidad más restrictiva (por ejemplo, privada) en los atributos de una clase. Así, cualquier software que utilice nuestro objeto, sólo accederá al estado de los objetos mediante los métodos que le hayamos permitido utilizar.
@@ -19,3 +19,24 @@ b) O(1)
 
 ### 5)	Un algoritmo de ordenación que implemente el método de inserción se basa en la idea de ir seleccionando el número correspondiente en la lista desordenada que se va a insertar en la posición última de la lista ordenada: 
 b)	Falso
+
+## Ejercicio 2
+
+### 2)	Explica las diferencias entre una tabla Hash y un árbol. ¿ Cuándo conviene utilizar cada una de estas estructuras? Justifique su respuesta y analice todas las posibles operaciones a realizar por las estructuras. No redacte el orden tal y como puede ver en los apuntes, razónelo con sus propias palabras y argumentos.
+ - En una tabla Hash, cada valor tiene un "key" o una llave. En un árbol, cada nodo tiene dos "hijos" hasta llegar al final. Una tabla Hash requiere que se asignen las llaves a cada valor, pero es más eficiente. Un árbol es eficiente en grupos de datos que se repiten, por ejemplo en la compresión de texto.
+
+### 3)	Explica las diferencias entre una pila y una cola. ¿ Cuándo conviene utilizar cada una de estas estructuras? ¿ Cuál es el orden de complejidad computacional de estas estructuras? No redacte el orden tal y como puede ver en los apuntes, razónelo con sus propias palabras y argumentos.
+ - 
+
+### 4)	Explica el método de ordenación denominado inserción y describe las iteraciones sobre el siguiente conjunto de datos: 
+### 50 20 84 13 22 16 89 85 
+ - El método de inserción mira a cada valor, lo saca del conjunto y si es menor que el valor (o los valores) anterior, lo mete detrás de ese valor.
+ - En el ejemplo de datos, primero saca el 20 y lo mete detrás del 50. luego saca el 13 y lo pone al principio detrás del 20. Luego el 22 se mueve detrás del 50, el 16 detrás del 20 y el 85 detrás del 89. Resultado: 13 16 20 22 50 84 85 89
+
+### 5) Dadas dos funciones y su número de operaciones: 
+### A	= 1024 n 
+### B	= 16 n 3 
+### Calcular a partir de qué tamaño de entrada n A es más eficiente que B. 
+ - En n = 8, A y B son iguales. para n > 8, A es más eficiente.
+
+
