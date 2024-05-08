@@ -50,4 +50,6 @@ b)	Falso
  - El código recibe dos enteros, y multiplica el primero por si mismo la cantidad de veces que indica el segundo.
  - Es recursividad directa de cola, donde el método llama a si mismo al final del método.
 
-
+## Ejercicio 4 en Ejercicio4.java
+### ¿Qué tipo de recursividad se está empleando? ¿Qué complejidad computacional tiene el algoritmo?
+El tipo de recursividad es de cola, la complejidad de tiempo y espacio es 0(log n) por cada dígito del número.
