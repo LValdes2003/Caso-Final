@@ -39,4 +39,15 @@ b)	Falso
 ### Calcular a partir de qué tamaño de entrada n A es más eficiente que B. 
  - En n = 8, A y B son iguales. para n > 8, A es más eficiente.
 
+## Ejercicio 3
+<img width="292" alt="image" src="https://github.com/LValdes2003/Caso-Final/assets/145686477/ed32d7ee-22a0-4f47-8ad9-1cd70c5f5589">
+
+### a)	¿Qué imprime el código? En caso de que no compile indique el motivo y arregle el programa como considere conveniente. Explique su solución de manera concisa. 
+ - El código no compila porque la llamada con (1, -2) crea un bucle infinito.
+ - El segundo entero no puede ser negativo, ya que se convierte en bucle infinito. Al principio del código agrego un if(b < 0) que tira una excepción para prevenir ese caso.
+
+### b)	Explica brevemente qué cálculo está haciendo y qué tipo de recursividad está empleando. 
+ - El código recibe dos enteros, y multiplica el primero por si mismo la cantidad de veces que indica el segundo.
+ - Es recursividad directa de cola, donde el método llama a si mismo al final del método.
+
 
