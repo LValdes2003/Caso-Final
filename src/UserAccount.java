@@ -39,4 +39,8 @@ public class UserAccount {
             follower.timeline.add(mensaje);
         }
     }
+
+    public String toString() {
+        return "Alias: " + alias + ", Email: " + email;
+    }
 }
